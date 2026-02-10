@@ -1,14 +1,15 @@
-# Medical Image Segmentation using UNET and UNET-Transformer
+cat << 'EOF' > README.md
+#Medical Image Segmentation using UNET and UNET-Transformer
 
 This repository contains my **Final Year Project** on **Medical Image Segmentation** using deep learning models:
-- **UNET**
-- **UNET + Transformer** (Hybrid Architecture)
+* **UNET**
+* **UNET + Transformer** (Hybrid Architecture)
 
 The project focuses on **brain tumor** and **liver tumor** segmentation from medical images to assist in automated diagnosis.
 
----
+***
 
-## 📌 Project Structure
+##📌 Project Structure
 
 ```text
 Medical-Image-Segmentation-UNET-Transformer/
@@ -27,85 +28,129 @@ Medical-Image-Segmentation-UNET-Transformer/
 │
 ├── .gitignore
 └── README.md
-🧠 Models Implemented
+
+```
+##🧠 Models Implemented
+
 UNET: Applied for brain tumor segmentation.
 
 UNET: Applied for liver tumor segmentation.
 
 UNET + Transformer: A fusion model implemented for improved brain tumor segmentation accuracy.
 
-📂 Dataset
+##📂 Dataset
+
 Due to large file sizes and privacy restrictions, datasets are not included in this repository.
 
-Download Links:
-Brain Tumor Dataset (BraTS):
+###Download Links
 
-👉 [PASTE DATASET LINK HERE]
+Brain Tumor Dataset (BraTS)
 
-Liver Tumor Dataset:
+ [Brain Tumor Dataset](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation?resource=download)
 
-👉 [PASTE DATASET LINK HERE]
+Liver Tumor Dataset
 
-Directory Setup:
+[Liver Tumor Dataset](https://www.kaggle.com/datasets/ag3ntsp1d3rx/litsdataset2)
+
+###Directory Setup
+
 After downloading, please organize the dataset in the following format:
 
 Plaintext
+```
 dataset/
 ├── images/
 └── masks/
-⚙️ Installation & Requirements
-1️⃣ Create a Virtual Environment (Optional but Recommended)
+```
+##⚙️ Installation & Requirements
+
+###1. Create a Virtual Environment (Optional but Recommended)
+
 Bash
+```
 # Create virtual environment
 python -m venv venv
+```
 
+```
 # Activate (Linux/Mac)
 source venv/bin/activate
 
+```
+
+```
 # Activate (Windows)
 venv\Scripts\activate
-2️⃣ Install Dependencies
+
+```
+
+###2. Install Dependencies
+
 For UNET + Transformer model:
 
 Bash
+
+```
 pip install -r Brain_UNET_Transformer/requirements.txt
 If requirements.txt is not available, install manually:
 
+```
+
 Bash
+
+```
 pip install torch torchvision numpy opencv-python matplotlib scikit-learn
-🚀 How to Run the Project
-▶️ Training
+##🚀 How to Run the Project
+
+```
+###Training
+
 Navigate to the respective code/ folder and run:
 
 Bash
+
+```
 # Example training command
 python train.py
 
+```
+
+```
 # Or if the script is named differently
 python main.py
-▶️ Testing / Inference
+```
+###Testing / Inference
+
+
 To run predictions on the test set:
 
 Bash
+
+```
 python test.py
 
 # Or
 python predict.py
-📊 Results
+
+```
+##📊 Results
+
 Segmentation Masks: Saved in the results/ folder.
 
 Metrics: Evaluation metrics such as Dice Score and IoU are computed after training.
 
 Samples: Sample output images are included in the results folder for reference.
 
-💾 Trained Model Weights
+##💾 Trained Model Weights
+
 Trained model files (.pth) are not included due to GitHub file size limits. They can be:
 
 Shared via Google Drive.
 
 Provided upon request.
 
-🧪 Technologies Used
+##🧪 Technologies Used
+
 Language: Python
 
 Framework: PyTorch
@@ -114,18 +159,10 @@ Architectures: UNET, Transformer Encoder
 
 Libraries: OpenCV, NumPy, Matplotlib, Scikit-learn
 
-👨‍🎓 Author
+##👨‍🎓 Author
+
 Sivamathu Final Year Student Project Type: Academic / Final Year Project
 
-📄 License
-This project is for academic and research purposes only.
+##📄 License
 
-
-### Next Steps to Push to GitHub:
-
-Run these commands in your terminal to save and upload the changes:
-
-```bash
-git add README.md
-git commit -m "Add project README"
-git push origin main
+This project is for academic and research purposes only. EOF
