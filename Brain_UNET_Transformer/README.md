@@ -1,39 +1,36 @@
-# Liver Tumor Segmentation using UNET
+# Brain Tumor Segmentation using UNET + Transformer
 
-This module implements a **UNET-based model** for **liver tumor segmentation** from CT images.  
-It is developed as part of a **Final Year Project**.
+This module implements a **hybrid UNET + Transformer architecture** for improved **brain tumor segmentation** performance.
 
 ---
 
 ## 🧠 Model Description
 
-- Architecture: **UNET**
-- Task: Liver tumor segmentation
-- Input: CT scan images
-- Output: Tumor segmentation masks
+- Architecture: **UNET + Transformer Encoder**
+- Task: Brain tumor segmentation
+- Purpose: Improve global feature representation compared to standard UNET
 
 ---
 
 ## 📂 Folder Structure
 
 ```text
-Liver_UNET/
+Brain_UNET_Transformer/
 │
-├── source_code/
+├── code/
 │   ├── train.py
 │   ├── test.py
-│   └── model.py
+│   ├── unet.py
+│   └── transformer.py
 │
-├── results/
-│   └── sample_outputs/
-│
+├── requirements.txt
 └── README.md
 📂 Dataset
-Dataset files are not included in this repository.
+The dataset is not included in this repository.
 
 🔗 Dataset Link
-Liver Tumor Dataset (LiTS – Kaggle):
-https://www.kaggle.com/datasets/ag3ntsp1d3rx/litsdataset2
+Brain Tumor Dataset (BraTS – Kaggle):
+https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
 
 📁 Dataset Directory Format
 text
@@ -41,30 +38,36 @@ Copy code
 dataset/
 ├── images/
 └── masks/
-⚙️ Installation
-Install required dependencies:
+⚙️ Installation & Requirements
+Create and activate a virtual environment (optional):
 
 bash
 Copy code
-pip install torch torchvision numpy opencv-python matplotlib scikit-learn
+python -m venv venv
+venv\Scripts\activate   # Windows
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
 🚀 How to Run
 Training
 bash
 Copy code
-cd Liver_UNET/source_code
+cd Brain_UNET_Transformer/code
 python train.py
 Testing / Inference
 bash
 Copy code
 python test.py
 📊 Results
-Segmentation outputs are saved in the results/ directory
+Output masks and evaluation metrics are generated after training
 
-Performance evaluated using Dice Score and IoU
+Improved segmentation accuracy compared to baseline UNET
 
 💾 Trained Model Weights
-Trained model weights are not pushed to GitHub due to size constraints.
-They are available externally if required.
+Model weights (.pth) are excluded due to GitHub size limitations.
+They can be shared via external storage.
 
 📄 License
-Academic use only.
+Academic and research use only.
