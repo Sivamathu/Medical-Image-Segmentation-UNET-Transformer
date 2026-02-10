@@ -99,9 +99,11 @@ Bash
 
 ```
 pip install torch torchvision numpy opencv-python matplotlib scikit-learn
-##🚀 How to Run the Project
 
 ```
+## 🚀 How to Run the Project
+
+
 ### Training
 
 Navigate to the respective code/ folder and run:
