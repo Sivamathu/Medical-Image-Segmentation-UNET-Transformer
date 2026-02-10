@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 #Medical Image Segmentation using UNET and UNET-Transformer
 
 This repository contains my **Final Year Project** on **Medical Image Segmentation** using deep learning models:
