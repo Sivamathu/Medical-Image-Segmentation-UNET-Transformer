@@ -1,12 +1,131 @@
-# Medical Image Segmentation
+# Medical Image Segmentation using UNET and UNET-Transformer
 
-Final Year Project on Medical Image Segmentation using UNET and UNET-Transformer models.
+This repository contains my **Final Year Project** on **Medical Image Segmentation** using deep learning models:
+- **UNET**
+- **UNET + Transformer** (Hybrid Architecture)
 
-## Projects Included
-- Brain Tumor Segmentation using UNET
-- Liver Tumor Segmentation using UNET
-- Brain Tumor Segmentation using UNET + Transformer
+The project focuses on **brain tumor** and **liver tumor** segmentation from medical images to assist in automated diagnosis.
 
-## Datasets
-Datasets are not included due to size and privacy restrictions.
+---
 
+## 📌 Project Structure
+
+```text
+Medical-Image-Segmentation-UNET-Transformer/
+│
+├── Brain_UNET/
+│   ├── code/
+│   └── results/
+│
+├── Liver_UNET/
+│   ├── source_code/
+│   └── results/
+│
+├── Brain_UNET_Transformer/
+│   ├── code/
+│   └── requirements.txt
+│
+├── .gitignore
+└── README.md
+🧠 Models Implemented
+UNET: Applied for brain tumor segmentation.
+
+UNET: Applied for liver tumor segmentation.
+
+UNET + Transformer: A fusion model implemented for improved brain tumor segmentation accuracy.
+
+📂 Dataset
+Due to large file sizes and privacy restrictions, datasets are not included in this repository.
+
+Download Links:
+Brain Tumor Dataset (BraTS):
+
+👉 [PASTE DATASET LINK HERE]
+
+Liver Tumor Dataset:
+
+👉 [PASTE DATASET LINK HERE]
+
+Directory Setup:
+After downloading, please organize the dataset in the following format:
+
+Plaintext
+dataset/
+├── images/
+└── masks/
+⚙️ Installation & Requirements
+1️⃣ Create a Virtual Environment (Optional but Recommended)
+Bash
+# Create virtual environment
+python -m venv venv
+
+# Activate (Linux/Mac)
+source venv/bin/activate
+
+# Activate (Windows)
+venv\Scripts\activate
+2️⃣ Install Dependencies
+For UNET + Transformer model:
+
+Bash
+pip install -r Brain_UNET_Transformer/requirements.txt
+If requirements.txt is not available, install manually:
+
+Bash
+pip install torch torchvision numpy opencv-python matplotlib scikit-learn
+🚀 How to Run the Project
+▶️ Training
+Navigate to the respective code/ folder and run:
+
+Bash
+# Example training command
+python train.py
+
+# Or if the script is named differently
+python main.py
+▶️ Testing / Inference
+To run predictions on the test set:
+
+Bash
+python test.py
+
+# Or
+python predict.py
+📊 Results
+Segmentation Masks: Saved in the results/ folder.
+
+Metrics: Evaluation metrics such as Dice Score and IoU are computed after training.
+
+Samples: Sample output images are included in the results folder for reference.
+
+💾 Trained Model Weights
+Trained model files (.pth) are not included due to GitHub file size limits. They can be:
+
+Shared via Google Drive.
+
+Provided upon request.
+
+🧪 Technologies Used
+Language: Python
+
+Framework: PyTorch
+
+Architectures: UNET, Transformer Encoder
+
+Libraries: OpenCV, NumPy, Matplotlib, Scikit-learn
+
+👨‍🎓 Author
+Sivamathu Final Year Student Project Type: Academic / Final Year Project
+
+📄 License
+This project is for academic and research purposes only.
+
+
+### Next Steps to Push to GitHub:
+
+Run these commands in your terminal to save and upload the changes:
+
+```bash
+git add README.md
+git commit -m "Add project README"
+git push origin main
