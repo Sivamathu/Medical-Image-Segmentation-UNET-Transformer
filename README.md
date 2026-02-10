@@ -145,6 +145,12 @@ Metrics: Evaluation metrics such as Dice Score and IoU are computed after traini
 
 Samples: Sample output images are included in the results folder for reference.
 
+#### Input
+
+![Image](https://github.com/user-attachments/assets/55cc9dde-cf52-47e9-8d48-431c57d2497d)
+
+#### Output
+
 <img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/3d817bd0-2097-4228-aaf3-313232245f6e" />
 
 ## 💾 Trained Model Weights
