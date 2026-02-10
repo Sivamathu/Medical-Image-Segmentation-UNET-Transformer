@@ -1,4 +1,4 @@
-#Medical Image Segmentation using UNET and UNET-Transformer
+# Medical Image Segmentation using UNET and UNET-Transformer
 
 This repository contains my **Final Year Project** on **Medical Image Segmentation** using deep learning models:
 * **UNET**
@@ -8,7 +8,7 @@ The project focuses on **brain tumor** and **liver tumor** segmentation from med
 
 ***
 
-##📌 Project Structure
+## 📌 Project Structure
 
 ```text
 Medical-Image-Segmentation-UNET-Transformer/
@@ -29,7 +29,7 @@ Medical-Image-Segmentation-UNET-Transformer/
 └── README.md
 
 ```
-##🧠 Models Implemented
+## 🧠 Models Implemented
 
 UNET: Applied for brain tumor segmentation.
 
@@ -37,7 +37,7 @@ UNET: Applied for liver tumor segmentation.
 
 UNET + Transformer: A fusion model implemented for improved brain tumor segmentation accuracy.
 
-##📂 Dataset
+## 📂 Dataset
 
 Due to large file sizes and privacy restrictions, datasets are not included in this repository.
 
@@ -51,7 +51,7 @@ Liver Tumor Dataset
 
 [Liver Tumor Dataset](https://www.kaggle.com/datasets/ag3ntsp1d3rx/litsdataset2)
 
-###Directory Setup
+### Directory Setup
 
 After downloading, please organize the dataset in the following format:
 
@@ -61,9 +61,9 @@ dataset/
 ├── images/
 └── masks/
 ```
-##⚙️ Installation & Requirements
+## ⚙️ Installation & Requirements
 
-###1. Create a Virtual Environment (Optional but Recommended)
+### 1. Create a Virtual Environment (Optional but Recommended)
 
 Bash
 ```
@@ -83,7 +83,7 @@ venv\Scripts\activate
 
 ```
 
-###2. Install Dependencies
+### 2. Install Dependencies
 
 For UNET + Transformer model:
 
@@ -102,7 +102,7 @@ pip install torch torchvision numpy opencv-python matplotlib scikit-learn
 ##🚀 How to Run the Project
 
 ```
-###Training
+### Training
 
 Navigate to the respective code/ folder and run:
 
@@ -118,7 +118,7 @@ python train.py
 # Or if the script is named differently
 python main.py
 ```
-###Testing / Inference
+### Testing / Inference
 
 
 To run predictions on the test set:
@@ -132,7 +132,7 @@ python test.py
 python predict.py
 
 ```
-##📊 Results
+## 📊 Results
 
 Segmentation Masks: Saved in the results/ folder.
 
@@ -140,7 +140,7 @@ Metrics: Evaluation metrics such as Dice Score and IoU are computed after traini
 
 Samples: Sample output images are included in the results folder for reference.
 
-##💾 Trained Model Weights
+## 💾 Trained Model Weights
 
 Trained model files (.pth) are not included due to GitHub file size limits. They can be:
 
@@ -148,7 +148,7 @@ Shared via Google Drive.
 
 Provided upon request.
 
-##🧪 Technologies Used
+## 🧪 Technologies Used
 
 Language: Python
 
@@ -158,10 +158,10 @@ Architectures: UNET, Transformer Encoder
 
 Libraries: OpenCV, NumPy, Matplotlib, Scikit-learn
 
-##👨‍🎓 Author
+## 👨‍🎓 Author
 
 Sivamathu Final Year Student Project Type: Academic / Final Year Project
 
-##📄 License
+## 📄 License
 
 This project is for academic and research purposes only. EOF
