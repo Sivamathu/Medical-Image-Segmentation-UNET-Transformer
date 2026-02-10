@@ -128,7 +128,11 @@ Bash
 ```
 python test.py
 
+```
+
 # Or
+
+```
 python predict.py
 
 ```
