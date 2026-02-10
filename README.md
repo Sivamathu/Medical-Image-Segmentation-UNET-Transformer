@@ -145,6 +145,8 @@ Metrics: Evaluation metrics such as Dice Score and IoU are computed after traini
 
 Samples: Sample output images are included in the results folder for reference.
 
+<img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/3d817bd0-2097-4228-aaf3-313232245f6e" />
+
 ## 💾 Trained Model Weights
 
 Trained model files (.pth) are not included due to GitHub file size limits. They can be:
