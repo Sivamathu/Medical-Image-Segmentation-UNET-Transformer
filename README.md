@@ -114,8 +114,9 @@ python train.py
 
 ```
 
+Or if the script is named differently
+
 ```
-# Or if the script is named differently
 python main.py
 ```
 ### Testing / Inference
@@ -130,7 +131,7 @@ python test.py
 
 ```
 
-# Or
+Or
 
 ```
 python predict.py
