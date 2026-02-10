@@ -1,0 +1,2 @@
+Mean Dice: 0.0832
+Mean IoU : 0.0485
